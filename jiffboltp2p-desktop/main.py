@@ -12,7 +12,7 @@ _current_dir = os.path.dirname(os.path.abspath(__file__))
 if _current_dir not in sys.path:
     sys.path.insert(0, _current_dir)
 
-# 1. Force Windows to recognize DPI awareness before creating the window
+# 1. Force Windows to recognize DPI awareness before creating the window ok
 if sys.platform == "win32":
     try:
         import ctypes
